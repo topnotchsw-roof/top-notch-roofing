@@ -42,7 +42,7 @@ export default function Home() {
             <form
               id="contact"
               className="leadForm"
-              action="https://hooks.zapier.com/hooks/catch/27478233/uvnmz2j/"
+              action="https://hooks.zapier.com/hooks/catch/27478233/uvnrju2/"
               method="POST"
             >
               <h2>Free Roof Inspection</h2>
