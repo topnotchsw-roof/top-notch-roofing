@@ -15,7 +15,7 @@ export default function Home() {
               <a href="#contact">Contact</a>
             </nav>
       
-</div>
+
           </header>
 
           <div className="heroGrid">
