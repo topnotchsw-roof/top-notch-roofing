@@ -177,7 +177,13 @@ export default function Home() {
         </div>
       </section>
 
-      <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
+      <footer>
+  <strong>Top Notch Southwest Roofing</strong><br />
+  Licensed • Insured • Bonded • ROC #339754 • 602-686-5922<br /><br />
+
+  <a href="https://facebook.com/topnotchsouthwestroofing" target="_blank">Facebook</a> | 
+  <a href="https://instagram.com/topnotchsouthwestroofing" target="_blank">Instagram</a>
+</footer>
     </main>
   );
 }
