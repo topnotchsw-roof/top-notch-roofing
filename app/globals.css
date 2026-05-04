@@ -15,7 +15,45 @@
   transition: all 0.2s ease;
   border: 1px solid rgba(255,255,255,0.15);
 }
+.socialHeader {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 
+.socialBtn {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.socialBtn img {
+  width: 20px;
+  filter: invert(1);
+}
+
+/* Hover effects */
+.socialBtn:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Facebook hover */
+.socialBtn:nth-child(1):hover {
+  background: #1877F2;
+  box-shadow: 0 10px 20px rgba(24,119,242,0.4);
+}
+
+/* Instagram hover */
+.socialBtn:nth-child(2):hover {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  box-shadow: 0 10px 20px rgba(221,42,123,0.4);
+}
 .socialBtn img {
   width: 20px;
   filter: invert(1);
