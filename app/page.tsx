@@ -36,6 +36,25 @@ export default function Home() {
 
               <div className="actions">
                 <a className="btn" href="#contact">Get a Free Roof Inspection</a>
+                <div className="socialHeader">
+  <a 
+    href="https://www.facebook.com/topnotchsouthwestroofing" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialBtn"
+  >
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" />
+  </a>
+
+  <a 
+    href="https://www.instagram.com/topnotchsouthwestroofing/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="socialBtn"
+  >
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" />
+  </a>
+</div>
                 <a className="btn outline" href="tel:6026865922">Call 602-686-5922</a>
               </div>
 
@@ -181,8 +200,15 @@ export default function Home() {
   <strong>Top Notch Southwest Roofing</strong><br />
   Licensed • Insured • Bonded • ROC #339754 • 602-686-5922<br /><br />
 
-  <a href="https://facebook.com/topnotchsouthwestroofing" target="_blank">Facebook</a> | 
-  <a href="https://instagram.com/topnotchsouthwestroofing" target="_blank">Instagram</a>
+  <div className="socialFooter">
+    <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" />
+    </a>
+
+    <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" />
+    </a>
+  </div>
 </footer>
     </main>
   );
