@@ -14,13 +14,12 @@ export default function Home() {
               <a href="#reviews">Reviews</a>
               <a href="#contact">Contact</a>
             </nav>
-      
-
+            <a className="btn" href="tel:6026865922">☎ 602-686-5922</a>
           </header>
-          
+
           <div className="heroGrid">
             <div>
-              <div className="pill">Phoenix • Cave Creek • Carefree • New River</div>
+              <div className="pill">📍 Phoenix • Cave Creek • Carefree • New River</div>
               <h1>Arizona Roofing Built for <span>Heat, Hail & Monsoon Storms.</span></h1>
               <p className="heroText">
                 Top Notch Southwest Roofing handles roof repairs, full replacements, coatings, flat roofs, tile,
@@ -28,20 +27,7 @@ export default function Home() {
               </p>
 
               <div className="actions">
-  <a className="btn" href="#contact">Get a Free Roof Inspection</a>
-
-  <div className="socialHeader">
-    <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank" rel="noopener noreferrer" className="socialBtn">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" />
-    </a>
-
-    <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank" rel="noopener noreferrer" className="socialBtn">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" />
-    </a>
-  </div>
-
-  <a className="btn outline" href="tel:6026865922">Call 602-686-5922</a>
-</div>
+                <a className="btn" href="#contact">Get a Free Roof Inspection</a>
                 <a className="btn outline" href="tel:6026865922">Call 602-686-5922</a>
               </div>
 
@@ -109,7 +95,7 @@ export default function Home() {
               <p className="fineprint">Your request will be sent directly to Top Notch Southwest Roofing. We’ll follow up as soon as possible.</p>
             </form>
           </div>
-        
+        </div>
       </section>
 
       <section id="services" className="light">
@@ -183,20 +169,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-  <strong>Top Notch Southwest Roofing</strong><br />
-  Licensed • Insured • Bonded • ROC #339754 • 602-686-5922<br /><br />
-
-  <div className="socialFooter">
-    <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" />
-    </a>
-
-    <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" />
-    </a>
-  </div>
-</footer>
+      <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
     </main>
   );
 }
