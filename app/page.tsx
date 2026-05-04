@@ -109,7 +109,7 @@ export default function Home() {
               <p className="fineprint">Your request will be sent directly to Top Notch Southwest Roofing. We’ll follow up as soon as possible.</p>
             </form>
           </div>
-        </div>
+        
       </section>
 
       <section id="services" className="light">
