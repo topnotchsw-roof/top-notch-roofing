@@ -15,6 +15,14 @@ export default function Home() {
               <a href="#contact">Contact</a>
             </nav>
             <a className="btn" href="tel:6026865922">☎ 602-686-5922</a>
+         <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+  <a href="https://facebook.com/topnotchsouthwestroofing" target="_blank">
+    <img src="/facebook.png" style={{ width: "24px" }} />
+  </a>
+  <a href="https://instagram.com/topnotchsouthwestroofing" target="_blank">
+    <img src="/instagram.png" style={{ width: "24px" }} />
+  </a>
+</div>
           </header>
 
           <div className="heroGrid">
