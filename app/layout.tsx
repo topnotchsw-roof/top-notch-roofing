@@ -3,15 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Top Notch Southwest Roofing | Phoenix Roofing Contractor",
-  description:
-    "Top Notch Southwest Roofing provides residential and commercial roof repairs, replacements, coatings, flat roofs, storm damage inspections, and insurance claim support in the Phoenix metro area.",
+  description: "Residential and commercial roofing, roof repairs, replacements, coatings, flat roofs, storm damage inspections, and insurance claim support in Phoenix.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>

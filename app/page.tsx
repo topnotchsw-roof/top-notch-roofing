@@ -8,25 +8,19 @@ export default function Home() {
         <div className="wrap">
           <header>
             <img className="logo" src="/top-notch-logo.jpg" alt="Top Notch Southwest Roofing Logo" />
-
             <nav>
               <a href="#services">Services</a>
               <a href="#claims">Storm Claims</a>
               <a href="#reviews">Reviews</a>
               <a href="#contact">Contact</a>
             </nav>
-
             <a className="btn" href="tel:6026865922">☎ 602-686-5922</a>
           </header>
 
           <div className="heroGrid">
             <div>
               <div className="pill">📍 Phoenix • Cave Creek • Carefree • New River</div>
-
-              <h1>
-                Arizona Roofing Built for <span>Heat, Hail & Monsoon Storms.</span>
-              </h1>
-
+              <h1>Arizona Roofing Built for <span>Heat, Hail & Monsoon Storms.</span></h1>
               <p className="heroText">
                 Top Notch Southwest Roofing handles roof repairs, full replacements, coatings, flat roofs, tile,
                 shingles, and storm damage inspections across the Phoenix metro area.
@@ -46,13 +40,15 @@ export default function Home() {
             </div>
 
             <form
+              id="contact"
               className="leadForm"
-              action="mailto:djones@topnotchsouthwestroofing.com"
-              method="post"
-              encType="text/plain"
+              action="https://formspree.io/f/xbdworwq"
+              method="POST"
             >
               <h2>Free Roof Inspection</h2>
               <p>Tell us what’s going on and we’ll get back with you fast.</p>
+
+              <input type="hidden" name="_subject" value="New Roof Lead - Top Notch Southwest Roofing" />
 
               <div className="formRow">
                 <div>
@@ -66,7 +62,7 @@ export default function Home() {
               </div>
 
               <label>Email</label>
-              <input name="Email" type="email" placeholder="Email address" />
+              <input name="email" type="email" placeholder="Email address" />
 
               <label>Property Address</label>
               <input name="Address" placeholder="City / address" />
@@ -101,9 +97,7 @@ export default function Home() {
               <textarea name="Message" placeholder="Tell us about the leak, storm damage, or roof issue..." />
 
               <button className="submit" type="submit">Send Inspection Request</button>
-              <p className="fineprint">
-                Live form is currently set to email djones@topnotchsouthwestroofing.com. SMS lead delivery can be added with Zapier or Twilio.
-              </p>
+              <p className="fineprint">Your request will be sent directly to Top Notch Southwest Roofing. We’ll follow up as soon as possible.</p>
             </form>
           </div>
         </div>
@@ -166,7 +160,6 @@ export default function Home() {
             <div className="eyebrow">Trust & Experience</div>
             <h2>Why Homeowners Choose Top Notch.</h2>
           </div>
-
           <div className="reviews">
             <article><div>★★★★★</div><p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p></article>
             <article><div>★★★★★</div><p>“Great communication from inspection through cleanup. You can tell they know roofing and care about doing it right.”</p></article>
@@ -190,16 +183,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="cta">
+      <section className="cta">
         <div className="wrap">
           <div className="ctaBox">
             <h2>Ready for a Top Notch Roof?</h2>
             <p>Call today for a free roof inspection, storm damage assessment, leak repair, roof replacement, or commercial roofing estimate.</p>
             <div className="actions center">
               <a className="btn whiteBtn" href="tel:6026865922">☎ 602-686-5922</a>
-              <a className="btn darkBtn" href="mailto:djones@topnotchsouthwestroofing.com?subject=Free Roof Inspection Request">
-                Email Inspection Request
-              </a>
+              <a className="btn darkBtn" href="#contact">Request Inspection</a>
             </div>
           </div>
         </div>
