@@ -14,6 +14,21 @@ export default function Home() {
               <a href="#reviews">Reviews</a>
               <a href="#contact">Contact</a>
             </nav>
+            <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+  <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" 
+      style={{ width: "22px", filter: "invert(1)" }} 
+    />
+  </a>
+
+  <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" 
+      style={{ width: "22px", filter: "invert(1)" }} 
+    />
+  </a>
+</div>
             <a className="btn" href="tel:6026865922">☎ 602-686-5922</a>
           </header>
 
