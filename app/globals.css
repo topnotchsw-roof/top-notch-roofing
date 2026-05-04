@@ -37,3 +37,19 @@
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
   box-shadow: 0 10px 20px rgba(221,42,123,0.4);
 }
+.socialFooter {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.socialFooter img {
+  width: 24px;
+  filter: invert(1);
+  transition: 0.2s ease;
+}
+
+.socialFooter img:hover {
+  transform: scale(1.15);
+}
