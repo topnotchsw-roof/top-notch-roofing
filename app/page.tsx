@@ -39,12 +39,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form
-              id="contact"
-              className="leadForm"
-              action=https://hooks.zapier.com/hooks/catch/27478233/uvnf2bq/
-              method="POST"
-            >
+            <form id="contact" className="leadForm" action="/api/lead" method="POST">
               <h2>Free Roof Inspection</h2>
               <p>Tell us what’s going on and we’ll get back with you fast.</p>
 
@@ -110,18 +105,13 @@ export default function Home() {
             <h2>Residential & Commercial Roofing Done Right.</h2>
             <p>Built for Arizona sun, storm season, wind, hail, and long-term roof performance.</p>
           </div>
-
           <div className="cards">
             <article className="card"><div className="icon">🏠</div><h3>Residential Roofing</h3><p>Roof repairs, replacements, tile, shingles, flat roofs, foam, coatings, and leak repairs.</p></article>
             <article className="card"><div className="icon">🏢</div><h3>Commercial Roofing</h3><p>Flat roof systems, coatings, TPO, single-ply, BUR, foam, maintenance, and multi-family roofing.</p></article>
             <article className="card"><div className="icon">⛈️</div><h3>Storm Damage Claims</h3><p>Hail, wind, and monsoon inspections with clear documentation and contractor notes.</p></article>
           </div>
-
           <div className="systems">
-            <div>
-              <div className="eyebrow">Roof Systems</div>
-              <h2>We work on all major Arizona roof systems.</h2>
-            </div>
+            <div><div className="eyebrow">Roof Systems</div><h2>We work on all major Arizona roof systems.</h2></div>
             <div className="chips">
               <span>Tile Roofs</span><span>Asphalt Shingles</span><span>Flat Roofs</span><span>Spray Foam</span>
               <span>Roof Coatings</span><span>TPO / Single-Ply</span><span>Metal Roofs</span><span>BUR Systems</span>
@@ -135,17 +125,9 @@ export default function Home() {
           <div className="darkBox">
             <div className="eyebrow">Storm Damage Specialists</div>
             <h2>We document the roof damage clearly.</h2>
-            <p>
-              Arizona storms can damage shingles, tile, foam, coatings, flashings, and flat roof systems fast.
-              We inspect, photograph, document, and explain what is needed so homeowners and property managers
-              can make smart decisions.
-            </p>
-            <div className="badges">
-              <span>BBB Accredited Business</span>
-              <span>ROC #339754</span>
-            </div>
+            <p>Arizona storms can damage shingles, tile, foam, coatings, flashings, and flat roof systems fast. We inspect, photograph, document, and explain what is needed so homeowners and property managers can make smart decisions.</p>
+            <div className="badges"><span>BBB Accredited Business</span><span>ROC #339754</span></div>
           </div>
-
           <div className="steps">
             <div className="step"><b>1</b><div><h3>Inspect</h3><p>We check roof condition, leaks, storm damage, flashings, coatings, and problem areas.</p></div></div>
             <div className="step"><b>2</b><div><h3>Document</h3><p>Photos, notes, roof type, visible damage, and recommended repair or replacement scope.</p></div></div>
@@ -156,10 +138,7 @@ export default function Home() {
 
       <section id="reviews" className="light">
         <div className="wrap">
-          <div className="sectionHead">
-            <div className="eyebrow">Trust & Experience</div>
-            <h2>Why Homeowners Choose Top Notch.</h2>
-          </div>
+          <div className="sectionHead"><div className="eyebrow">Trust & Experience</div><h2>Why Homeowners Choose Top Notch.</h2></div>
           <div className="reviews">
             <article><div>★★★★★</div><p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p></article>
             <article><div>★★★★★</div><p>“Great communication from inspection through cleanup. You can tell they know roofing and care about doing it right.”</p></article>
@@ -171,14 +150,8 @@ export default function Home() {
       <section className="white">
         <div className="wrap">
           <div className="areas">
-            <div>
-              <div className="eyebrow">Service Areas</div>
-              <h2>Local Phoenix Metro Roofing Contractor</h2>
-              <p>Serving homeowners, commercial properties, apartments, and property managers throughout the Valley.</p>
-            </div>
-            <div className="areaGrid">
-              <span>Phoenix</span><span>Cave Creek</span><span>Carefree</span><span>New River</span><span>Desert Hills</span><span>Scottsdale</span>
-            </div>
+            <div><div className="eyebrow">Service Areas</div><h2>Local Phoenix Metro Roofing Contractor</h2><p>Serving homeowners, commercial properties, apartments, and property managers throughout the Valley.</p></div>
+            <div className="areaGrid"><span>Phoenix</span><span>Cave Creek</span><span>Carefree</span><span>New River</span><span>Desert Hills</span><span>Scottsdale</span></div>
           </div>
         </div>
       </section>
@@ -196,10 +169,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <strong>Top Notch Southwest Roofing</strong><br />
-        Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor
-      </footer>
+      <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
     </main>
   );
 }
