@@ -42,13 +42,13 @@ export default function Home() {
             <form
               id="contact"
               className="leadForm"
-              action="https://formspree.io/f/xbdworwq"
+              action="https://hooks.zapier.com/hooks/catch/27478233/uvnmz2j/"
               method="POST"
             >
               <h2>Free Roof Inspection</h2>
               <p>Tell us what’s going on and we’ll get back with you fast.</p>
 
-              <input type="hidden" name="_subject" value="New Roof Lead - Top Notch Southwest Roofing" />
+              <input type="hidden" name="Source" value="Top Notch Southwest Roofing Website" />
 
               <div className="formRow">
                 <div>
@@ -62,7 +62,7 @@ export default function Home() {
               </div>
 
               <label>Email</label>
-              <input name="email" type="email" placeholder="Email address" />
+              <input name="Email" type="email" placeholder="Email address" />
 
               <label>Property Address</label>
               <input name="Address" placeholder="City / address" />
@@ -70,7 +70,7 @@ export default function Home() {
               <div className="formRow">
                 <div>
                   <label>Roof Type</label>
-                  <select name="Roof Type">
+                  <select name="Roof_Type">
                     <option>Not sure</option>
                     <option>Tile roof</option>
                     <option>Shingle roof</option>
@@ -82,7 +82,7 @@ export default function Home() {
 
                 <div>
                   <label>Need Help With</label>
-                  <select name="Need Help With">
+                  <select name="Need_Help_With">
                     <option>Free inspection</option>
                     <option>Storm damage</option>
                     <option>Roof leak</option>
