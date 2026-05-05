@@ -41,7 +41,18 @@
 @media (max-width: 900px) {
   .reviews {
     grid-template-columns: 1fr;
-  }
+  footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: #aaa;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+footer strong {
+  display: block;
+  color: #fff;
+  margin-bottom: 8px;
+}}
 }
   
  
