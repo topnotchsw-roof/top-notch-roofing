@@ -241,18 +241,25 @@ export default function Home() {
   <div className="wrap footerGrid">
 
     {/* LEFT SIDE */}
-    <div>
-      <h3>Stay Connected</h3>
-      <p>See our latest projects, storm updates, and roofing tips.</p>
+    <div className="socialIcons">
+  <a
+    href="https://www.facebook.com/topnotchsouthwestroofing"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <i className="fab fa-facebook-f"></i>
+  </a>
 
-      <div className="socialIcons">
-        <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank">
-          Facebook
-        </a>
-        <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank">
-          Instagram
-        </a>
-      </div>
+  <a
+    href="https://www.instagram.com/topnotchsouthwestroofing/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <i className="fab fa-instagram"></i>
+  </a>
+</div>
     </div>
 
     {/* RIGHT SIDE */}
