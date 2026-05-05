@@ -208,15 +208,19 @@ export default function Home() {
 </div>
  
 
+<section className="cta">
+  <div className="wrap">
+    <div className="ctaBox">
+      <h2>Like What You See?</h2>
+      <p>Get a FREE roof inspection and honest assessment from a licensed Arizona contractor.</p>
+
+      <div className="actions center">
+        <a className="btn whiteBtn" href="tel:6026865922">📞 Call 602-686-5922</a>
+        <a className="btn darkBtn" href="#contact">Request Inspection</a>
+      </div>
+    </div>
+  </div>
 </section>
-      <section className="white">
-        <div className="wrap">
-          <div className="areas">
-            <div><div className="eyebrow">Service Areas</div><h2>Local Phoenix Metro Roofing Contractor</h2><p>Serving homeowners, commercial properties, apartments, and property managers throughout the Valley.</p></div>
-            <div className="areaGrid"><span>Phoenix</span><span>Cave Creek</span><span>Carefree</span><span>New River</span><span>Desert Hills</span><span>Scottsdale</span></div>
-          </div>
-        </div>
-      </section>
 
       <section className="cta">
         <div className="wrap">
