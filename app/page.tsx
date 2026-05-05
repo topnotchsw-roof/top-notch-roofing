@@ -195,23 +195,17 @@ export default function Home() {
     </div>
 
     <div className="galleryGrid">
-      <article className="galleryCard">
-        <div className="galleryImage">Before / After Photo</div>
-        <h3>Storm Damage Roof Replacement</h3>
-        <p>Insurance-supported roof replacement after wind and hail damage.</p>
-      </article>
+      <div className="galleryGrid">
+  <div className="galleryItem">
+    <img src="/gallery/roof1-before.jpg" alt="Roof Before" />
+    <span>Before</span>
+  </div>
 
-      <article className="galleryCard">
-        <div className="galleryImage">Before / After Photo</div>
-        <h3>Flat Roof Coating System</h3>
-        <p>Arizona flat roof coating to protect against heat, leaks, and UV wear.</p>
-      </article>
-
-      <article className="galleryCard">
-        <div className="galleryImage">Before / After Photo</div>
-        <h3>Tile Roof Repair</h3>
-        <p>Tile roof repair and leak solution built for long-term performance.</p>
-      </article>
+  <div className="galleryItem">
+    <img src="/gallery/roof1-after.jpg" alt="Roof After" />
+    <span>After</span>
+  </div>
+</div>
     </div>
   </div>
 </section>
