@@ -177,15 +177,25 @@ export default function Home() {
   </article>
 </div>
 
-<div style={{ marginTop: "25px", textAlign: "center" }}>
-  <a 
+<div className="reviewActions">
+  <a
     href="https://www.google.com/search?q=Top+Notch+Southwest+Roofing+reviews"
     target="_blank"
     rel="noopener noreferrer"
     className="btn"
   >
-    ⭐ Read More Reviews on Google
+    ⭐ Read Reviews
   </a>
+
+  <a
+    href="https://g.page/r/CdkgbmK5QoK0EBM/review"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn reviewBtn"
+  >
+    ⭐ Leave a Review
+  </a>
+</div>
 </div>
         </div>
       </section>
