@@ -257,15 +257,13 @@ export default function Home() {
 
     {/* RIGHT SIDE */}
     <div>
-      <h3>Proudly Serving</h3>
-      <p>
-        Phoenix • Cave Creek • Carefree • New River • Desert Hills • Scottsdale
-      </p>
+  <h3>Proudly Serving the Entire Phoenix Valley</h3>
 
-      <p className="footerTrust">
-        Licensed • Insured • Bonded • ROC #339754
-      </p>
-    </div>
+  <p>
+    Phoenix • Cave Creek • Carefree • New River • Desert Hills • Scottsdale •
+    Glendale • Peoria • Prescott • Flagstaff • Surrounding Phoenix Areas
+  </p>
+</div>
 
   </div>
 </section>
