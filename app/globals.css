@@ -15,64 +15,6 @@
   text-align: center;
 }
 
-.mobileLeadBar {
-  position: fixed;
-  bottom: 16px;
-  left: 14px;
-  right: 14px;
-  display: flex;
-  gap: 10px;
-  z-index: 999999;
-}
 
-.mobileLeadBtn {
-  flex: 1;
-  text-align: center;
-  padding: 16px 12px;
-  border-radius: 999px;
-  font-weight: 900;
-  font-size: 16px;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.35);
-  text-decoration: none;
-}
 
-.mobileLeadBtn.call {
-  background: #3291d3;
-  color: #fff;
-  animation: pulseCall 1.8s infinite;
-}
-
-.mobileLeadBtn.text {
-  background: #111827;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.25);
-}
-
-@keyframes pulseCall {
-  0% {
-    box-shadow: 0 0 0 0 rgba(50,145,211,0.65);
-  }
-
-  70% {
-    box-shadow: 0 0 0 14px rgba(50,145,211,0);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 rgba(50,145,211,0);
-  }
-}
-
-@media (min-width: 768px) {
-  .mobileLeadBar {
-    display: none;
-  }
-}
-
-/* Hide on desktop */
-@media (min-width: 768px) {
-  .mobileLeadBar {
-    display: none;
-  }
-}
-}
 
