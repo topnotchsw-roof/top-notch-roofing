@@ -215,15 +215,7 @@ export default function Home() {
 
       <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
     
-    <div className="mobileLeadBar">
-  <a href="tel:6026865922" className="mobileLeadBtn call">
-    📞 Call Now
-  </a>
-
-  <a href="sms:6026865922" className="mobileLeadBtn text">
-    💬 Text Us
-  </a>
-</div>
+   
     </main>
   );
 }
