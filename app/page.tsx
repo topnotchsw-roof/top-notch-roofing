@@ -154,25 +154,21 @@ export default function Home() {
       <section id="reviews" className="light">
         <div className="wrap">
           <div className="sectionHead"><div className="eyebrow">Trust & Experience</div><h2>Why Homeowners Choose Top Notch.</h2></div>
-         <div className="reviews">
-           <div style={{ marginTop: "10px", marginBottom: "20px", fontWeight: "bold" }}>
-  <span style={{ color: "#fbbf24", fontSize: "20px" }}>★★★★★</span>
-  <span style={{ marginLeft: "8px" }}>5.0 Google Rating</span>
-</div>
-  <article>
-    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+         <div className="reviewCardsFixed">
+  <article className="reviewBoxFixed">
+    <div className="reviewStars">★★★★★</div>
     <p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p>
     <strong>— Phoenix Homeowner</strong>
   </article>
 
-  <article>
-    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+  <article className="reviewBoxFixed">
+    <div className="reviewStars">★★★★★</div>
     <p>“Great communication from inspection through cleanup. You can tell they know roofing and care about doing it right.”</p>
     <strong>— Cave Creek Customer</strong>
   </article>
 
-  <article>
-    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+  <article className="reviewBoxFixed">
+    <div className="reviewStars">★★★★★</div>
     <p>“Top Notch helped us after storm damage and gave us straight answers. Highly recommend.”</p>
     <strong>— Carefree Resident</strong>
   </article>
