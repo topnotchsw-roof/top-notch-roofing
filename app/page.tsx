@@ -1,6 +1,9 @@
 export default function Home() {
   return (
     <main>
+      <div className="trustBar">
+  ⭐ 5-Star Rated • Licensed • Insured • Bonded • ROC #339754 • 40+ Years Experience
+</div>
       <section className="hero">
         <div className="heroBg" />
         <div className="heroGlow" />
