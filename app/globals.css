@@ -260,3 +260,42 @@ footer strong {
     grid-template-columns: 1fr;
   }
 }
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.galleryCard {
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.08);
+}
+
+.galleryImage {
+  height: 210px;
+  background: linear-gradient(135deg, #111827, #3291d3);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.galleryCard h3 {
+  color: #111827;
+  font-size: 20px;
+  padding: 18px 18px 6px;
+}
+
+.galleryCard p {
+  color: #4b5563;
+  padding: 0 18px 20px;
+}
+
+@media (max-width: 900px) {
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+}
