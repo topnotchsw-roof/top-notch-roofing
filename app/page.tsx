@@ -154,11 +154,36 @@ export default function Home() {
       <section id="reviews" className="light">
         <div className="wrap">
           <div className="sectionHead"><div className="eyebrow">Trust & Experience</div><h2>Why Homeowners Choose Top Notch.</h2></div>
-          <div className="reviews">
-            <article><div>★★★★★</div><p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p></article>
-            <article><div>★★★★★</div><p>“Great communication from inspection through cleanup. You can tell they know roofing and care about doing it right.”</p></article>
-            <article><div>★★★★★</div><p>“Top Notch helped us after storm damage and gave us straight answers. Highly recommend.”</p></article>
-          </div>
+         <div className="reviews">
+  <article>
+    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+    <p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p>
+    <strong>— Phoenix Homeowner</strong>
+  </article>
+
+  <article>
+    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+    <p>“Great communication from inspection through cleanup. You can tell they know roofing and care about doing it right.”</p>
+    <strong>— Cave Creek Customer</strong>
+  </article>
+
+  <article>
+    <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
+    <p>“Top Notch helped us after storm damage and gave us straight answers. Highly recommend.”</p>
+    <strong>— Carefree Resident</strong>
+  </article>
+</div>
+
+<div style={{ marginTop: "25px", textAlign: "center" }}>
+  <a 
+    href="https://www.google.com/search?q=Top+Notch+Southwest+Roofing+reviews"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn"
+  >
+    ⭐ Read More Reviews on Google
+  </a>
+</div>
         </div>
       </section>
 
