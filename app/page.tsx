@@ -186,7 +186,35 @@ export default function Home() {
 </div>
         </div>
       </section>
+<section id="gallery" className="light">
+  <div className="wrap">
+    <div className="sectionHead">
+      <div className="eyebrow">Project Gallery</div>
+      <h2>Before & After Roofing Work</h2>
+      <p>Real roof repairs, replacements, coatings, and storm damage projects across the Phoenix area.</p>
+    </div>
 
+    <div className="galleryGrid">
+      <article className="galleryCard">
+        <div className="galleryImage">Before / After Photo</div>
+        <h3>Storm Damage Roof Replacement</h3>
+        <p>Insurance-supported roof replacement after wind and hail damage.</p>
+      </article>
+
+      <article className="galleryCard">
+        <div className="galleryImage">Before / After Photo</div>
+        <h3>Flat Roof Coating System</h3>
+        <p>Arizona flat roof coating to protect against heat, leaks, and UV wear.</p>
+      </article>
+
+      <article className="galleryCard">
+        <div className="galleryImage">Before / After Photo</div>
+        <h3>Tile Roof Repair</h3>
+        <p>Tile roof repair and leak solution built for long-term performance.</p>
+      </article>
+    </div>
+  </div>
+</section>
       <section className="white">
         <div className="wrap">
           <div className="areas">
