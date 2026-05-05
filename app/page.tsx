@@ -209,15 +209,7 @@ export default function Home() {
  
 
 
-      <h2>Like What You See?</h2>
-      <p>Get a FREE roof inspection and honest assessment from a licensed Arizona contractor.</p>
-
-      <div className="actions center">
-        <a className="btn whiteBtn" href="tel:6026865922">📞 Call 602-686-5922</a>
-        <a className="btn darkBtn" href="#contact">Request Inspection</a>
-      </div>
-    </div>
-  </div>
+     
 </section>
 
       <section className="cta">
