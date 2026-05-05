@@ -223,4 +223,40 @@ footer strong {
     grid-template-columns: 1fr;
   }
 }
+.reviewCardsFixed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
 
+.reviewBoxFixed {
+  background: #fff;
+  border-radius: 22px;
+  padding: 24px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewStars {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.reviewBoxFixed p {
+  flex: 1;
+  margin-bottom: 18px;
+}
+
+.reviewBoxFixed strong {
+  color: #3291d3;
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .reviewCardsFixed {
+    grid-template-columns: 1fr;
+  }
+}
