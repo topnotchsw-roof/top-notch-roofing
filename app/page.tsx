@@ -195,16 +195,16 @@ export default function Home() {
     </div>
 
     <div className="galleryGrid">
-      <div className="galleryGrid">
   <div className="galleryItem">
     <img src="/gallery/roof1-before.jpg" alt="Roof Before" />
-    <span>Before</span>
+    <div className="overlay">Before</div>
   </div>
 
   <div className="galleryItem">
     <img src="/gallery/roof1-after.jpg" alt="Roof After" />
-    <span>After</span>
+    <div className="overlay">After</div>
   </div>
+</div>
 </div>
     </div>
   </div>
