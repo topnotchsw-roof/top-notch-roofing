@@ -411,3 +411,20 @@ footer strong {
   font-size: 14px;
   font-weight: 500;
 }
+.reviewActions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.reviewBtn {
+  background: #fbbc05;
+  color: #000;
+  font-weight: 600;
+}
+
+.reviewBtn:hover {
+  background: #e0a800;
+}
