@@ -155,6 +155,10 @@ export default function Home() {
         <div className="wrap">
           <div className="sectionHead"><div className="eyebrow">Trust & Experience</div><h2>Why Homeowners Choose Top Notch.</h2></div>
          <div className="reviews">
+           <div style={{ marginTop: "10px", marginBottom: "20px", fontWeight: "bold" }}>
+  <span style={{ color: "#fbbf24", fontSize: "20px" }}>★★★★★</span>
+  <span style={{ marginLeft: "8px" }}>5.0 Google Rating</span>
+</div>
   <article>
     <div style={{ color: "#fbbf24", fontSize: "18px" }}>★★★★★</div>
     <p>“Professional, responsive, and very knowledgeable. They explained the roof issue clearly and handled the job the right way.”</p>
