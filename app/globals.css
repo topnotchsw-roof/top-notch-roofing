@@ -428,3 +428,38 @@ footer strong {
 .reviewBtn:hover {
   background: #e0a800;
 }
+.footerTop {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.footerTop h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.socialIcons a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #fbbc05; /* Google yellow accent */
+  font-weight: 600;
+}
+
+.footerTrust {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
