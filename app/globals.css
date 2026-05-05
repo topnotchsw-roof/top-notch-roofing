@@ -152,6 +152,39 @@ footer strong {
     grid-template-columns: 1fr !important;
   }
 }
+/* Force reviews section alignment */
+#reviews .reviews {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 22px !important;
+  align-items: stretch !important;
+}
 
+#reviews .reviews article {
+  min-height: 260px !important;
+  height: 100% !important;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto !important;
+  padding: 24px !important;
+}
+
+#reviews .reviews article p {
+  margin: 14px 0 !important;
+}
+
+#reviews .reviews article strong {
+  align-self: end !important;
+  color: #3291d3 !important;
+}
+
+#reviews .btn {
+  margin-top: 25px !important;
+}
+
+@media (max-width: 900px) {
+  #reviews .reviews {
+    grid-template-columns: 1fr !important;
+  }
+}
 
 
