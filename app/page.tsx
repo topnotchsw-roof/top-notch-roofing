@@ -208,9 +208,7 @@ export default function Home() {
 </div>
  
 
-<section className="cta">
-  <div className="wrap">
-    <div className="ctaBox">
+
       <h2>Like What You See?</h2>
       <p>Get a FREE roof inspection and honest assessment from a licensed Arizona contractor.</p>
 
