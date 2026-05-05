@@ -237,7 +237,38 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="footerTop">
+  <div className="wrap footerGrid">
 
+    {/* LEFT SIDE */}
+    <div>
+      <h3>Stay Connected</h3>
+      <p>See our latest projects, storm updates, and roofing tips.</p>
+
+      <div className="socialIcons">
+        <a href="https://www.facebook.com/topnotchsouthwestroofing" target="_blank">
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/topnotchsouthwestroofing/" target="_blank">
+          Instagram
+        </a>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE */}
+    <div>
+      <h3>Proudly Serving</h3>
+      <p>
+        Phoenix • Cave Creek • Carefree • New River • Desert Hills • Scottsdale
+      </p>
+
+      <p className="footerTrust">
+        Licensed • Insured • Bonded • ROC #339754
+      </p>
+    </div>
+
+  </div>
+</section>
       <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
     
    
