@@ -245,6 +245,10 @@ export default function Home() {
   <h3>Stay Connected</h3>
   <p>See our latest projects, storm updates, and roofing tips.</p>
 
+  <div>
+  <h3>Stay Connected</h3>
+  <p>See our latest projects, storm updates, and roofing tips.</p>
+
   <div className="socialIcons">
     <a
       href="https://www.facebook.com/topnotchsouthwestroofing"
@@ -265,7 +269,6 @@ export default function Home() {
     </a>
   </div>
 </div>
-
     {/* RIGHT SIDE */}
     <div>
   <h3>Proudly Serving the Entire Phoenix Valley</h3>
