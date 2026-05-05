@@ -128,7 +128,30 @@ footer strong {
     grid-template-columns: 1fr !important;
   }
 }
+.reviews {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 22px !important;
+  align-items: stretch !important;
+}
 
+.reviews article {
+  min-height: 250px !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.reviews article strong {
+  margin-top: auto !important;
+  display: block !important;
+}
+
+@media (max-width: 900px) {
+  .reviews {
+    grid-template-columns: 1fr !important;
+  }
+}
 
 
 
