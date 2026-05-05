@@ -196,7 +196,7 @@ export default function Home() {
     ⭐ Leave a Review
   </a>
 </div>
-</div>
+
         </div>
       </section>
 <section id="gallery" className="light">
