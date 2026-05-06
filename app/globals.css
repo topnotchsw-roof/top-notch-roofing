@@ -494,3 +494,20 @@ footer strong {
   opacity: 1 !important;
   filter: brightness(0) saturate(100%) !important;
 }
+.footerTop .socialIcons a {
+  background: #fbbc05 !important;
+  color: #111 !important;
+  opacity: 1 !important;
+}
+
+.footerTop .socialIcons a svg,
+.footerTop .socialIcons a path {
+  fill: #111 !important;
+  color: #111 !important;
+  opacity: 1 !important;
+}
+
+.footerTop .socialIcons a img {
+  filter: brightness(0) !important;
+  opacity: 1 !important;
+}
