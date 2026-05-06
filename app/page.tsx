@@ -277,7 +277,9 @@ export default function Home() {
 
   </div>
 </section>
-      <footer><strong>Top Notch Southwest Roofing</strong><br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
+      <footer>
+  <strong>Top Notch Southwest Roofing</strong><br />
+  38617 N 7th St, Phoenix AZ 85086<br />Licensed • Insured • Bonded • ROC #339754 • 602-686-5922 • Phoenix Metro Roofing Contractor</footer>
     
    
     </main>
