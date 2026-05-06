@@ -249,25 +249,31 @@ export default function Home() {
   <h3>Stay Connected</h3>
   <p>See our latest projects, storm updates, and roofing tips.</p>
 
-  <div className="socialIcons">
-    <a
-      href="https://www.facebook.com/topnotchsouthwestroofing"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Facebook"
-    >
-      <i className="fab fa-facebook-f"></i>
-    </a>
+  .socialIcons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: #1f2937;
+  color: #fff;
+  transition: all 0.3s ease;
+}
 
-    <a
-      href="https://www.instagram.com/topnotchsouthwestroofing/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Instagram"
-    >
-      <i className="fab fa-instagram"></i>
-    </a>
-  </div>
+.socialIcons a:hover {
+  transform: translateY(-3px);
+}
+
+/* Brand hover colors */
+.socialIcons a:hover:nth-child(1) {
+  color: #1877f2; /* Facebook */
+}
+
+.socialIcons a:hover:nth-child(2) {
+  color: #e1306c; /* Instagram */
+}
 </div>
     {/* RIGHT SIDE */}
     <div>
