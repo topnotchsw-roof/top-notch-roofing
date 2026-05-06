@@ -241,10 +241,6 @@ export default function Home() {
   <div className="wrap footerGrid">
 
     {/* LEFT SIDE */}
-    <div>
-  <h3>Stay Connected</h3>
-  <p>See our latest projects, storm updates, and roofing tips.</p>
-
   <div>
   <h3>Stay Connected</h3>
   <p>See our latest projects, storm updates, and roofing tips.</p>
