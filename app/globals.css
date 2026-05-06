@@ -463,31 +463,7 @@ footer strong {
     text-align: center;
   }
 }
-.socialIcons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  margin-right: 12px;
-  border-radius: 50%;
-  background: #1f2937;
-  color: #fff;
-  transition: all 0.3s ease;
-}
 
-.socialIcons a:hover {
-  transform: translateY(-3px);
-}
-
-/* Brand hover colors */
-.socialIcons a:hover:nth-child(1) {
-  color: #1877f2; /* Facebook */
-}
-
-.socialIcons a:hover:nth-child(2) {
-  color: #e1306c; /* Instagram */
-}
 
 .socialIcons a {
   display: inline-flex;
