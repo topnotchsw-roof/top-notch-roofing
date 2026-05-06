@@ -509,3 +509,26 @@ footer strong {
   height: 22px;
   filter: invert(1);
 }
+.socialIcons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: #fbbc05;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+.socialIcons svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
