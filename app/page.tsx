@@ -245,16 +245,14 @@ export default function Home() {
   <h3>Stay Connected</h3>
   <p>See our latest projects, storm updates, and roofing tips.</p>
 
- <div className="socialIcons">
+<div className="socialIcons">
   <a
     href="https://www.facebook.com/topnotchsouthwestroofing"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Facebook"
   >
-    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-      <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.6c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.3 0-1.7.8-1.7 1.6v1.9H17l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z" />
-    </svg>
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
   </a>
 
   <a
@@ -263,9 +261,7 @@ export default function Home() {
     rel="noopener noreferrer"
     aria-label="Instagram"
   >
-    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-      <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm6-1.8a1.2 1.2 0 1 1-1.2-1.2A1.2 1.2 0 0 1 18 5.7zM12 9a3 3 0 1 0 3 3 3 3 0 0 0-3-3z" />
-    </svg>
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
   </a>
 </div>
 </div>
